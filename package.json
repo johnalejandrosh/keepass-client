@@ -1,0 +1,29 @@
+{
+  "name": "keepassxc-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1 -p 4717",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 4717",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2",
+    "next": "16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "packageManager": "pnpm@11.20.0",
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.3"
+  }
+}
